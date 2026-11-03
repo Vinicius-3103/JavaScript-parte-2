@@ -1,0 +1,4 @@
+/* Estilos do exercício 06. Você pode alterar à vontade. */
+body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.5; }
+dl { display: grid; grid-template-columns: max-content 1fr; gap: 4px 12px; }
+dt { font-weight: bold; }

@@ -1,0 +1,6 @@
+/* Estilos do exercício 09. Você pode alterar à vontade. */
+body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.5; }
+#cartoes { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; }
+.cartao { border: 2px solid #ccc; border-radius: 8px; padding: 12px; }
+.normal { border-color: seagreen; }
+.alerta { border-color: orange; }
