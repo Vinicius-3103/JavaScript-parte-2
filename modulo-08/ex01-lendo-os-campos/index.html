@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex. 01 — Lendo os campos</title>
+  <!-- Leia as instruções nos comentários do script.js -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Ficha rápida</h1>
+  <form id="ficha">
+    <div class="campo"><label for="nome">Nome</label><input id="nome"></div>
+    <div class="campo"><label for="idade">Idade</label><input id="idade" type="number"></div>
+    <div class="campo"><label for="turno">Turno</label>
+      <select id="turno"><option value="manha">Manhã</option><option value="tarde">Tarde</option><option value="noite">Noite</option></select>
+    </div>
+    <label><input id="bolsista" type="checkbox"> Sou bolsista</label>
+    <button>Enviar</button>
+  </form>
+  <pre id="saida"></pre>
+</body>
+</html>

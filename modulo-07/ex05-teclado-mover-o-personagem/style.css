@@ -1,0 +1,4 @@
+/* Estilos do exercício 05. Você pode alterar à vontade. */
+body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.5; }
+#arena { position: relative; width: 300px; height: 200px; border: 2px solid #333; overflow: hidden; }
+#heroi { position: absolute; font-size: 28px; transition: transform .1s; }

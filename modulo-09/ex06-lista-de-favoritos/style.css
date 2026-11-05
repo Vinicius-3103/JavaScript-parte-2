@@ -1,0 +1,6 @@
+/* Estilos do exercício 06. Você pode alterar à vontade. */
+body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.5; }
+#filmes { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
+.filme { border: 1px solid #ccc; border-radius: 8px; padding: 12px; }
+.estrela { border: none; background: none; font-size: 1.5em; cursor: pointer; opacity: .3; }
+.estrela.fav { opacity: 1; }

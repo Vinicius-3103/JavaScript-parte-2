@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex. 06 — Telas de um app</title>
+  <!-- Leia as instruções nos comentários do script.js -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <section id="tela-inicio">
+    <h1>Jogo da Tabuada</h1>
+    <label>Seu nome <input id="nome"></label>
+    <button id="comecar">Começar</button>
+  </section>
+  <section id="tela-jogo" hidden>
+    <p id="conta"></p>
+    <input id="resposta" type="number">
+    <button id="responder">Responder</button>
+    <p id="feedback"></p>
+  </section>
+  <section id="tela-fim" hidden>
+    <h2 id="resultado"></h2>
+    <button id="denovo">Jogar de novo</button>
+  </section>
+</body>
+</html>

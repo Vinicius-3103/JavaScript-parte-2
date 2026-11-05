@@ -1,0 +1,4 @@
+/* Estilos do exercício 04. Você pode alterar à vontade. */
+body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.5; }
+#amostra { margin-top: 12px; height: 100px; display: grid; place-items: center; border: 1px solid #ccc; border-radius: 8px; }
+.cor.ativa { outline: 3px solid #000; }

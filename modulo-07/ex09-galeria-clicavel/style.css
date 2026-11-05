@@ -1,0 +1,6 @@
+/* Estilos do exercício 09. Você pode alterar à vontade. */
+body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.5; }
+#principal { width: 100%; max-width: 500px; border-radius: 8px; display: block; }
+#miniaturas { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0; }
+.mini { width: 80px; opacity: .5; cursor: pointer; border-radius: 4px; }
+.mini.ativa { opacity: 1; outline: 3px solid royalblue; }

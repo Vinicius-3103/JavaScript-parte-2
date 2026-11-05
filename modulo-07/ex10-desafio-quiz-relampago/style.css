@@ -1,0 +1,6 @@
+/* Estilos do exercício 10. Você pode alterar à vontade. */
+body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.5; }
+#opcoes { display: grid; gap: 8px; max-width: 400px; }
+#opcoes button { padding: 10px; text-align: left; }
+.certa { background: #c8f7c5; }
+.errada { background: #f7c5c5; }

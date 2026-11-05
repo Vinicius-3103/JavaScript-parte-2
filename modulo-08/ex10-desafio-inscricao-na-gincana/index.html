@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex. 10 — Desafio: inscrição na gincana</title>
+  <!-- Leia as instruções nos comentários do script.js -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Gincana da ETEC</h1>
+  <form id="form" novalidate>
+    <div class="campo"><label for="equipe">Nome da equipe</label><input id="equipe"><small class="msg"></small></div>
+    <div class="campo"><label for="email">E-mail do líder</label><input id="email" type="email"><small class="msg"></small></div>
+    <div class="campo"><label for="qtd">Integrantes (3 a 6)</label><input id="qtd" type="number"><small class="msg"></small></div>
+    <div class="campo"><label for="serie">Série</label>
+      <select id="serie"><option value="">Selecione...</option><option>1º ano</option><option>2º ano</option><option>3º ano</option></select>
+      <small class="msg"></small>
+    </div>
+    <label><input id="regulamento" type="checkbox"> Li o regulamento</label>
+    <button>Inscrever equipe</button>
+  </form>
+  <section id="comprovante" hidden></section>
+</body>
+</html>

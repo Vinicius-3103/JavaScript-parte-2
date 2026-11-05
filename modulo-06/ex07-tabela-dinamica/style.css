@@ -1,0 +1,5 @@
+/* Estilos do exercício 07. Você pode alterar à vontade. */
+body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.5; }
+table { border-collapse: collapse; min-width: 320px; }
+th, td { border: 1px solid #bbb; padding: 6px 10px; text-align: left; }
+tr.lider { background: #fff3b0; font-weight: bold; }

@@ -1,0 +1,4 @@
+/* Estilos do exercício 05. Você pode alterar à vontade. */
+body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.5; }
+#produtos { display: flex; flex-wrap: wrap; gap: 8px; }
+#carrinho li { display: flex; gap: 8px; align-items: center; }

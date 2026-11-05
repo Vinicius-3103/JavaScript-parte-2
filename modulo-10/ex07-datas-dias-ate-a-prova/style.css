@@ -1,0 +1,4 @@
+/* Estilos do exercício 07. Você pode alterar à vontade. */
+body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.5; }
+.hoje { color: crimson; font-weight: bold; }
+.passou { opacity: .4; text-decoration: line-through; }

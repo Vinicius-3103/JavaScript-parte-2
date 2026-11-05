@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex. 04 — Radio e checkbox</title>
+  <!-- Leia as instruções nos comentários do script.js -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Oficinas da semana tech</h1>
+  <form id="form">
+    <fieldset>
+      <legend>Turno</legend>
+      <label><input type="radio" name="turno" value="manhã"> Manhã</label>
+      <label><input type="radio" name="turno" value="tarde"> Tarde</label>
+    </fieldset>
+    <fieldset>
+      <legend>Oficinas (escolha de 1 a 2)</legend>
+      <label><input type="checkbox" name="oficina" value="Robótica"> Robótica</label>
+      <label><input type="checkbox" name="oficina" value="Games"> Games</label>
+      <label><input type="checkbox" name="oficina" value="Design"> Design</label>
+      <label><input type="checkbox" name="oficina" value="Redes"> Redes</label>
+    </fieldset>
+    <button>Inscrever</button>
+    <p id="resultado"></p>
+  </form>
+</body>
+</html>

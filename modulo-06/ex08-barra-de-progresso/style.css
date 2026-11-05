@@ -1,0 +1,5 @@
+/* Estilos do exercício 08. Você pode alterar à vontade. */
+body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.5; }
+.trilho { width: 100%; max-width: 400px; height: 20px; background: #ddd; border-radius: 10px; overflow: hidden; }
+.barra { height: 100%; width: 0; background: royalblue; transition: width .3s; }
+.barra.completa { background: seagreen; }

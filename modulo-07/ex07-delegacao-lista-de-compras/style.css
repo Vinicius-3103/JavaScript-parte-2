@@ -1,0 +1,5 @@
+/* Estilos do exercício 07. Você pode alterar à vontade. */
+body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.5; }
+#lista li.comprado span { text-decoration: line-through; opacity: .5; }
+#lista span { cursor: pointer; }
+.remover { color: crimson; border: none; background: none; cursor: pointer; }

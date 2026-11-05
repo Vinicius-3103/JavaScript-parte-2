@@ -1,0 +1,6 @@
+/* Estilos do exercício 04. Você pode alterar à vontade. */
+body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.5; }
+.sala { display: flex; gap: 12px; }
+.lampada { width: 60px; height: 60px; border-radius: 50%; background: #444; color: #fff;
+  display: grid; place-items: center; transition: background .2s; }
+.lampada.acesa { background: gold; color: #000; box-shadow: 0 0 20px gold; }

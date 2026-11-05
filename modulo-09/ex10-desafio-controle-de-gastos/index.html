@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex. 10 — Desafio: controle de gastos</title>
+  <!-- Leia as instruções nos comentários do script.js -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Gastos da semana</h1>
+  <form id="form" novalidate>
+    <input id="descricao" placeholder="Descrição">
+    <input id="valor" type="number" step="0.01" placeholder="Valor">
+    <select id="categoria">
+      <option value="">Categoria...</option>
+      <option value="alimentacao">Alimentação</option>
+      <option value="transporte">Transporte</option>
+      <option value="lazer">Lazer</option>
+    </select>
+    <button>Adicionar</button>
+    <p id="erro" class="erro"></p>
+  </form>
+  <h2>Total: <span id="total">R$ 0,00</span></h2>
+  <div id="categorias"></div>
+  <ul id="lista"></ul>
+</body>
+</html>

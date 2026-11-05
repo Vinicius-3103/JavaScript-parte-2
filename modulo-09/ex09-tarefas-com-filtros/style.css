@@ -1,0 +1,6 @@
+/* Estilos do exercício 09. Você pode alterar à vontade. */
+body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.5; }
+#lista { list-style: none; padding: 0; }
+#lista li { display: flex; gap: 8px; align-items: center; padding: 4px 0; }
+#lista li.feita span { text-decoration: line-through; opacity: .5; }
+#filtros button.ativo { font-weight: bold; text-decoration: underline; }

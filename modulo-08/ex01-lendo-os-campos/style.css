@@ -1,0 +1,10 @@
+/* Estilos do exercício 01. Você pode alterar à vontade. */
+body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.5; }
+form { display: grid; gap: 12px; max-width: 420px; }
+.campo { display: grid; gap: 4px; }
+.campo input, .campo select, .campo textarea { padding: 8px; border: 2px solid #bbb; border-radius: 6px; font: inherit; }
+.campo.invalido input, .campo.invalido select, .campo.invalido textarea { border-color: crimson; }
+.campo.valido input, .campo.valido select, .campo.valido textarea { border-color: seagreen; }
+.msg { color: crimson; min-height: 1.2em; font-size: .9em; }
+.sucesso { color: seagreen; font-weight: bold; }
+.erro { color: crimson; }

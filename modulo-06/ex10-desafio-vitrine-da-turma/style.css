@@ -1,0 +1,6 @@
+/* Estilos do exercício 10. Você pode alterar à vontade. */
+body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.5; }
+#vitrine { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+.projeto { border: 1px solid #ccc; border-radius: 8px; padding: 12px; }
+.projeto.destaque { border: 2px solid gold; background: #fffbe6; }
+.tag { display: inline-block; font-size: .8em; padding: 2px 8px; border-radius: 99px; background: #eee; }

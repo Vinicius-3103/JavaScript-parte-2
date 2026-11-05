@@ -1,0 +1,4 @@
+/* Estilos do exercício 01. Você pode alterar à vontade. */
+body { font-family: system-ui, sans-serif; margin: 24px; line-height: 1.5; }
+#valor { display: inline-block; min-width: 3ch; text-align: center; font-size: 2rem; }
+.negativo { color: crimson; }
